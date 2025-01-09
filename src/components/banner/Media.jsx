@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaInstagram, FaHtml5, FaCss3, FaJs, FaNodeJs, FaBootstrap, FaGithub, FaEnvelope, FaFacebook } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs, SiExpress, SiMysql, SiMongodb, SiMaterialdesign, SiWebrtc, SiSocketdotio } from "react-icons/si";
+import { SiTailwindcss, SiFigma, SiNextdotjs, SiExpress, SiMysql, SiMongodb, SiMaterialdesign, SiWebrtc, SiSocketdotio, SiLeetcode, SiCodechef, SiGeeksforgeeks } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 import { TbBrandSocketIo } from "react-icons/tb";
 const Media = () => {
@@ -29,7 +29,31 @@ const Media = () => {
               <FaEnvelope />
             </a>
           </div>
-
+          <div className="mt-5">
+            <h2 className="text-base uppercase font-titleFont mb-4">
+              Coding Profile
+            </h2>
+          </div>
+          <div className="flex gap-4">
+              <a href="https://leetcode.com/u/Akash-Jha/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+                <SiLeetcode />
+              </a>
+              <a href="https://www.geeksforgeeks.org/user/akash_jha/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+                <SiGeeksforgeeks />
+              </a>
+              <a href="https://www.codechef.com/users/royal_00/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+                <SiCodechef />
+              </a>
+          </div>
+          <div className="flex gap-4">
+            <a href="https://github.com/its-akashjha" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+              <FaGithub />
+              </a>
+            {/* <a href="mailto:akashjha412@gmail.com" className="bannerIcon">
+              <FaEnvelope />
+            </a> */}
+          </div>
+          
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">

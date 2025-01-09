@@ -45,7 +45,7 @@ const Experience = () => {
             title="Intern"
             subTitle="GeeksforGeeks"
             result="Delhi"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des="Authored and enhanced 30+ technical articles on data structures, algorithms, and programming languages during my internship at GeeksforGeeks."
           />
           <ResumeCard
             title="Mentor and Instructor"
